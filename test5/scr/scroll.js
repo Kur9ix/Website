@@ -6,8 +6,8 @@ if (document.getElementById("scrollContainer") != null) {
     container = document.getElementById("scrollContainer");
 
 
-    container.addEventListener("mousedown", function () {
-        console.log("TEST");
+    container.addEventListener("mousedown", (event) => {
+        event
     });
     container.addEventListener("mousedown", () => {
 
