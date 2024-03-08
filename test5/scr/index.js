@@ -1,10 +1,11 @@
-import * as THREE from './node_modules/three/build/three.module.js';
+//import * as THREE from './node_modules/three/build/three.module.js';
 
 document.getElementById('projectsBtn').addEventListener('click', function () {
     var main = document.getElementById("main-content");
     main.innerHTML = "";
     var content = document.createElement("div");
     content.classList.add("project-items-container");
+    content.id = "scrollContainer";
     main.appendChild(content);
     for (let index = 0; index < 10; index++) {
         var div = document.createElement("div");
