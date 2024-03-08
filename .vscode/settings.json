@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "NEWS/NEWS.sqlproj"
+    ],
+    "sqltools.connections": []
+}
