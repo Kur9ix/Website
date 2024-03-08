@@ -19,4 +19,5 @@ if (document.getElementById("scrollContainer") != null) {
 
     });
 }
+
 isDown = false;
