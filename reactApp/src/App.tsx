@@ -1,12 +1,10 @@
-import Alert from "./components/Alert";
+import Navbar from "./components/Navbar";
+
 function App() {
- 
 
   return (
     <div>
-      <Alert>
-        Hello <span>World</span>
-      </Alert>
+      <Navbar></Navbar>
     </div>
   );
 }
