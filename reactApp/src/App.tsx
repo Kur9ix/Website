@@ -1,8 +1,14 @@
-import Message  from "./Message"
+import Alert from "./components/Alert";
+function App() {
+ 
 
-function App(){
-  return <div> <Message></Message> </div>
+  return (
+    <div>
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
+    </div>
+  );
 }
-
 
 export default App;

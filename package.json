@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "three": "^0.161.0",
     "three-addons": "^1.2.0",
     "three-orbit-controls": "^82.1.0",
