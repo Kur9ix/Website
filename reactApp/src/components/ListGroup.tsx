@@ -1,14 +1,13 @@
 import FolderObject from "./Folder";
 
 interface Props{
-    img: string
     title: string;
     text: string
 
 }
 
 
-const ListGroup = ({img, title, text} : Props) => {
+const ListGroup = ({title, text} : Props) => {
     return (
         <>
         <div className="card" style={{ width: " 400px", marginLeft:"40px",  paddingTop: "40px", backgroundColor: "#86b9b0", borderStyle: "none"}}>

@@ -1,4 +1,16 @@
+import { useState } from "react";
+
 const Navbar = () => {
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovered(true);
+  }
+  const handleMouseout = () => {
+    setIsHovered(false);
+  }
+
   return (
     <nav className="navbar navbar-expand" style={{ backgroundColor: '#4c7273' }}>
     <div className="container-fluid">
@@ -9,7 +21,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#scrollspyHeading1" style={{ color: '#d0d6d6' }}>Home</a>
+            <a className="nav-link" aria-current="page" href="#scrollspyHeading1" style={{ color: isHovered ? '#ff0000'  : '#d0d6d6'}} onMouseOver={handleMouseOver} onMouseOut={handleMouseout}>Home</a>
         </li>
         <li className="nav-item">
             <a className="nav-link" aria-current="page" href="#scrollspyHeading2" style={{ color: '#d0d6d6' }}>TEST</a>

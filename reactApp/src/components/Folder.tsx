@@ -5,9 +5,6 @@ import { animated } from "@react-spring/three";
 
 
 const FolderObject = () => {
-
-
-
   return (
     <Canvas style={{backgroundColor: "#042630"}}>
       <animated.mesh>
