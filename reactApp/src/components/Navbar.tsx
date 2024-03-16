@@ -9,13 +9,13 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#" style={{ color: '#d0d6d6' }}>Home</a>
+            <a className="nav-link" aria-current="page" href="#scrollspyHeading1" style={{ color: '#d0d6d6' }}>Home</a>
         </li>
         <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#" style={{ color: '#d0d6d6' }}>TEST</a>
+            <a className="nav-link" aria-current="page" href="#scrollspyHeading2" style={{ color: '#d0d6d6' }}>TEST</a>
         </li>
         <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#" style={{ color: '#d0d6d6' }}>TEST2</a>
+            <a className="nav-link" aria-current="page" href="#scrollspyHeading3" style={{ color: '#d0d6d6' }}>TEST2</a>
         </li>
       </ul>
       </div>

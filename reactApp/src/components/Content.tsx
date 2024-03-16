@@ -8,7 +8,7 @@ interface Props{
 
 const Content = ({children} : Props) => {
   return (
-    <body style={{backgroundColor: '#86b9b0', height: "100vh", display: "flex"}}>
+    <body style={{backgroundColor: '#86b9b0', display: "flex"}}>
         {children}
     </body>
   )

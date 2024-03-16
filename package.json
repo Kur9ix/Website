@@ -4,6 +4,7 @@
     "three": "^0.161.0",
     "three-addons": "^1.2.0",
     "three-orbit-controls": "^82.1.0",
+    "three.js": "^0.77.1",
     "vite": "^5.1.4"
   }
 }
